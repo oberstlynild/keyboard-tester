@@ -1,0 +1,38 @@
+#wrapper {
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#keyboard {
+    display: grid;
+    grid-template-columns: repeat(37, 1fr);
+    background-color: #999;
+    grid-gap: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn, .btn-double, .btn-spacebar {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: #eee;
+    background-color: #555;
+}
+
+.white-space {
+
+}
+
+.btn {
+    grid-column: span 2;
+}
+
+.btn-double {
+    grid-column: span 4;
+}
+
+.btn-spacebar {
+
+}
