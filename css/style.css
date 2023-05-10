@@ -13,7 +13,10 @@
     margin: 5px;
 }
 
-.btn, .btn-double, .btn-spacebar {
+.btn-single,
+.btn-double,
+.btn-spacebar,
+.btn-right-shift {
     border: 2px solid black;
     text-align: center;
     padding: 10px 0 10px 0;
@@ -21,11 +24,7 @@
     background-color: #555;
 }
 
-.white-space {
-
-}
-
-.btn {
+.btn-single {
     grid-column: span 2;
 }
 
@@ -33,6 +32,14 @@
     grid-column: span 4;
 }
 
-.btn-spacebar {
+.btn-enter {
+    grid-row: span 2;
+}
 
+.btn-right-shift {
+    grid-column: span 6;
+}
+
+.btn-spacebar {
+    grid-column: span 16;
 }
